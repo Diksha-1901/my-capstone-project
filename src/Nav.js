@@ -8,6 +8,7 @@ function Nav() {
                 <img src={logo}  alt=""/>
             </a>
             <ul>
+                hi
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Menu</a></li>
