@@ -3,12 +3,11 @@ import logo from './Logo .svg'
 
 function Nav() {
     return(
-        <nav>
+        <nav className='nav-bar'>
             <a href="/">
                 <img src={logo}  alt=""/>
             </a>
             <ul>
-                hi
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Menu</a></li>
