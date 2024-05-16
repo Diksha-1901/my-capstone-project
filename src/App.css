@@ -156,7 +156,12 @@ input, label{
 
 }
 
-.comfirm span{
+.confirm h1{
+  position:absolute;
+  left: 35%;
+}
+
+.confirm span{
   color: blue;
 }
 
@@ -169,7 +174,7 @@ input, label{
 }
 
 .menu-container h2{
-  color: #000;
+  color: #000000;
 }
 
 .menu-header{
@@ -190,7 +195,7 @@ input, label{
 .menu-items{
   /* height: 400px; */
   width: 350px;
-  background: #a9c8be;
+  background: #495E57;
   border-radius: 8px;
 }
 
@@ -210,11 +215,27 @@ input, label{
   justify-content: space-between;
 }
 
+.heading h5{
+  color: #ffffff;
+}
+
+.heading p{
+  color: #fe6e58;
+}
+
+.menu-content > p{
+  color: #ffffff;
+}
+
 .orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
+}
+
+footer{
+  background-color: #f1f1f1;
 }
 
 footer section{
@@ -225,14 +246,15 @@ footer section{
 }
 
 .company-info img{
-  margin-top: 12px;
+  margin-top: 50px;
   cursor: pointer;
-  width: 200px;
+  width: 100px;
 }
 
 .company-info p{
   width: 320px;
 }
+
 
 footer h3{
   font-size: 18px;
